@@ -1,0 +1,130 @@
+/* //universal css */
+*{
+    margin: 0 ;
+    border: border-box;
+    padding: 0;
+}
+html{
+    font-size: 5px;
+}
+.body{
+    line-height: 1.5;
+    font-family: 'Futura PT Book', sans-serif;
+}
+:root {
+    --blue: #00ADEE;
+    --white: #ffffff;
+    --reqred: #ED7B00;
+    --heading: #0F495F;
+    --content:#000000;
+}
+.main-con{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.leftcon{
+    width:55%;
+    background-image: url("./images/loginHuman.png");
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.rightcon{
+    width:45%;
+    height: 100vh;
+    background: url("./images/sideCorner.png");
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 30%;
+        font-size: 3rem;
+        line-height: 1.5;
+
+}
+.mes{
+    width: 80%;
+    padding: 3% 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(1rem);
+    border: none;
+    border-radius: 2rem;
+}
+.mes h5{
+    color: var(--heading);
+    font-size: 5rem;
+padding: 20px 0  0 0;
+margin-bottom: 5px;
+}
+.mes p{
+    color: var(--content);
+    font-size: 3rem;
+padding:3% 8%;
+margin-bottom: 5px;
+text-align: center;
+}
+ .logo{
+    width: 80%;
+    background-image: url(./images/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 37vh;
+  
+} 
+.form{
+    width: 80%;
+    display: flex;
+
+    flex-direction: column;
+  
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+
+label span{
+    color:red
+}
+.form input{
+    width: 60%;
+    height: 7rem;
+   border: 1px solid #ced4da;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    padding:0 1.5rem;
+}
+.form .label,.btn-set{
+    margin: 0.7rem; 
+}
+.form button{
+    width: 30%;
+    height:7rem;
+    padding:0 1.5rem;
+    border: 1px solid #dee2e6 ;
+    border-radius: 0.5rem;
+}
+.btn-set .log{
+    margin-left: 3rem;
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+
+
+}
+
+
+
+
